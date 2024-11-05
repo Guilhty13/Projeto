@@ -12,6 +12,7 @@ TagManager:
   - Porta
   - Placa
   - Moeda
+  - PontosRestantes
   layers:
   - Default
   - TransparentFX

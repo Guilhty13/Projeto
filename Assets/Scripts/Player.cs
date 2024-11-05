@@ -158,7 +158,7 @@ public class Player : MonoBehaviour
         }
         if(collision.gameObject.CompareTag("Porta"))
         {
-            SceneManager.LoadScene("Cena2");
+            SceneManager.LoadScene("Fase2");
         }
         
     }
