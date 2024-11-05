@@ -85,7 +85,10 @@ public class Jogo : MonoBehaviour
     {
         Application.Quit();
     }
-    
+    public void End()
+    {
+        SceneManager.LoadScene("Fim");
+    }
  
     
 

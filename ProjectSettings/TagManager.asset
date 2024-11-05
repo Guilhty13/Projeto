@@ -14,6 +14,8 @@ TagManager:
   - Moeda
   - Morte
   - Lava
+  - PontosRestantes
+  - Porta2
   layers:
   - Default
   - TransparentFX

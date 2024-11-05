@@ -163,6 +163,13 @@ public class Player : MonoBehaviour
             SceneManager.LoadScene("Fase2");
             
         }
+        if(collision.gameObject.CompareTag("Porta2"))
+        {
+            
+            
+            SceneManager.LoadScene("Fim");
+            
+        }
         
     }
 
@@ -174,6 +181,13 @@ public class Player : MonoBehaviour
         if(other.gameObject.CompareTag ("Placa"))
         {
             estaVivo = false;
+            
+        }
+        if(other.gameObject.CompareTag("Porta2"))
+        {
+            
+            
+            SceneManager.LoadScene("Fim");
             
         }
        
